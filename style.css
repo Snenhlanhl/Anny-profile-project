@@ -4,7 +4,7 @@
 }
 
 .wrapped {
-    background-color: white;
+    background-color:white;
     margin-bottom: none;
     padding: 160px 30px;
 }
@@ -55,10 +55,20 @@ h{
 
 img {
     border-radius: 20px ;
-    margin-top: 30px;
+    margin-top: 40px;
+    margin-bottom: 80px;
 
 }
 .img-fluid {
     max-width:100%;
     height: auto;
+    
+}
+.content {
+    line-height: 30px;
+    font-weight:bold;
+    font-size: 18px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    padding: 20px 20px;
 }
