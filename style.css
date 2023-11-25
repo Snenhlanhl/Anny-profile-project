@@ -1,10 +1,10 @@
 :root {
     --defualt-font-family:"poppins", sans-serif;
     --branding-color:#85b0f0;
+    --webkit-text-fill-color: wheat;
 }
 
 .wrapped {
-    background-color:white;
     margin-bottom: none;
     padding: 160px 30px;
 }
@@ -13,27 +13,36 @@
 h1{
 
     font-weight: bold;
-    color:black;
+    color: var(--webkit-text-fill-color);
     font-size: 64px;
     line-height: 80px;
     text-align: left;
     display: block;
     font-family: var(--defualt-font-family);
 }
-h{
+h {
     font-weight: bold;
-    color:black;
+    color: var(--webkit-text-fill-color);
     font-size: 64px;
     line-height: 80px;
     text-align: left;
     display: block;
-    font-family: var(--defualt-font-family); 
+    font-family: var(--defualt-font-family);
+
 }
 
 .free {
-    font-size: 30px;
+    font-size: 20px;
+    color: var(--webkit-text-fill-color);
     text-align: left;
     display:block;
+    font-family: var(--defualt-font-family);
+}
+p {
+    font-size:15px;
+    color: var(--webkit-text-fill-color);
+    text-align: left;
+    display: block;
     font-family: var(--defualt-font-family);
 }
 .btn-branding{
@@ -57,18 +66,60 @@ img {
     border-radius: 20px ;
     margin-top: 40px;
     margin-bottom: 80px;
+    background: rgb(37, 35, 35);
 
 }
 .img-fluid {
     max-width:100%;
     height: auto;
+
     
 }
 .content {
     line-height: 30px;
     font-weight:bold;
     font-size: 18px;
-    background-color: antiquewhite;
     border-radius: 20px;
     padding: 20px 20px;
 }
+body {
+    background-color: rgb(37, 35, 35);
+}
+
+.style {
+    color: var(--webkit-text-fill-color);
+
+}
+.email-link {
+    color: var(--color);
+    font-size:24px;
+    text-decoration: none;
+    font-weight: 20px;
+}
+footer.email-link:hover {
+    color: var(--branding-color);
+}
+.social-links a {
+    margin: 0 50px 50px;
+    padding-top: 50px 50px;
+    background-color: var(--webkit-text-fill-color);
+
+    
+    border:30px 30px;
+    width: 50px;
+    font-size: 18px;
+    transition: all 100ms ease-in-out;
+    background-color:#f9f7fe; 
+    
+}
+.social-links a :hover{
+    color: var(--branding-color);
+}
+.contact-box {
+    padding: 30px 120px;
+    border-radius:10px;
+    background:#f9f7fe;
+}
+
+
+    
