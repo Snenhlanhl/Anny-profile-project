@@ -30,6 +30,15 @@ h {
     font-family: var(--defualt-font-family);
 
 }
+h2{
+    font-weight: bold;
+    color: var(--webkit-text-fill-color);
+    font-size: 64px;
+    line-height: 80px;
+    text-align: left;
+    display: block;
+    font-family: var(--defualt-font-family);
+}
 
 .free {
     font-size: 20px;
@@ -90,12 +99,15 @@ body {
     color: var(--webkit-text-fill-color);
 
 }
-.email-link {
-    color: var(--color);
+.style a{
+    text-align: center;
+    display: block;
     font-size:24px;
     text-decoration: none;
     font-weight: 20px;
+    color: whitesmoke;
 }
+
 footer.email-link:hover {
     color: var(--branding-color);
 }
@@ -112,7 +124,7 @@ footer.email-link:hover {
     background-color:#f9f7fe; 
     
 }
-.social-links a :hover{
+.style a:hover{
     color: var(--branding-color);
 }
 .contact-box {
@@ -120,6 +132,7 @@ footer.email-link:hover {
     border-radius:10px;
     background:#f9f7fe;
 }
+
 
 
     
