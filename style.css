@@ -3,13 +3,10 @@
     --branding-color:#85b0f0;
     --webkit-text-fill-color: wheat;
 }
-
 .wrapped {
     margin-bottom: none;
     padding: 160px 30px;
 }
-
-
 h1{
 
     font-weight: bold;
@@ -35,7 +32,7 @@ h2{
     color: var(--webkit-text-fill-color);
     font-size: 64px;
     line-height: 80px;
-    text-align: left;
+    text-align: center;
     display: block;
     font-family: var(--defualt-font-family);
 }
@@ -80,9 +77,7 @@ img {
 }
 .img-fluid {
     max-width:100%;
-    height: auto;
-
-    
+    height: auto;    
 }
 .content {
     line-height: 30px;
@@ -107,7 +102,6 @@ body {
     font-weight: 20px;
     color: whitesmoke;
 }
-
 footer.email-link:hover {
     color: var(--branding-color);
 }
@@ -132,6 +126,8 @@ footer.email-link:hover {
     border-radius:10px;
     background:#f9f7fe;
 }
+    
+
 
 
 
