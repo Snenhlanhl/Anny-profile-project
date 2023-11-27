@@ -40,15 +40,11 @@ h2{
 .free {
     font-size: 20px;
     color: var(--webkit-text-fill-color);
-    text-align: left;
-    display:block;
     font-family: var(--defualt-font-family);
 }
 p {
     font-size:15px;
     color: var(--webkit-text-fill-color);
-    text-align: left;
-    display: block;
     font-family: var(--defualt-font-family);
 }
 .btn-branding{
