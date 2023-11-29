@@ -122,6 +122,11 @@ footer.email-link:hover {
     border-radius:10px;
     background:#f9f7fe;
 }
+@media(max-width:576px){
+    h1{
+        font-size:32px;
+    }
+}
     
 
 
