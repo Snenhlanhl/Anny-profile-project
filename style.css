@@ -12,7 +12,7 @@ h1{
     font-weight: bold;
     color: var(--webkit-text-fill-color);
     font-size: 64px;
-    line-height: 80px;
+    line-height: 1.2;
     text-align: left;
     display: block;
     font-family: var(--defualt-font-family);
@@ -21,7 +21,7 @@ h {
     font-weight: bold;
     color: var(--webkit-text-fill-color);
     font-size: 64px;
-    line-height: 80px;
+    line-height: 1.2;
     text-align: left;
     display: block;
     font-family: var(--defualt-font-family);
@@ -31,7 +31,7 @@ h2{
     font-weight: bold;
     color: var(--webkit-text-fill-color);
     font-size: 64px;
-    line-height: 80px;
+    line-height: 1.2;
     text-align: center;
     display: block;
     font-family: var(--defualt-font-family);
@@ -132,7 +132,9 @@ footer.email-link:hover {
         font-size:44px;
     }
 }
-    
+.mb-5 {
+    margin-bottom: 3rem!important;
+}   
 
 
 
